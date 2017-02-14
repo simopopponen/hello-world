@@ -12,7 +12,12 @@ namespace hello_world
         {
             //Writes line to screen
             //Waits user input
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Type your first name:");
+            string strName=Console.ReadLine();
+            //Console.WriteLine("Your name is " + strName);
+            Console.WriteLine("Type your last name:");
+            string strLastName = Console.ReadLine();
+            Console.WriteLine("Your firstname is {0} and lastname {1} ", strName,strLastName);
             Console.ReadKey();
         }
     }
